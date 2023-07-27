@@ -1,0 +1,82 @@
+body{
+    /* background-color:rgb(218, 109, 127); */
+    background-color:rgb(210, 89, 109);
+
+    height:100%;
+    width:100%;
+}
+.form{
+   border:2px solid black;
+   border-radius: 5px;;
+   box-shadow:2px 2px 15px ;
+    height:55vh;
+    width:45vw;
+    background-color:white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 39px;
+    padding-top:20px;
+}
+.flex{
+    position:absolute;
+    left: 430px;
+    top:150px;
+}
+.email{
+    height:30px;
+    width:600px;
+    margin-left: 40px;
+    border:none;
+    border-bottom:1px solid black;
+    font-size: 16px;
+    
+}
+.password{
+    height:30px;
+    width:600px;
+    margin-left: 40px;
+    border:none;
+    border-bottom:1px solid black;
+    font-size: 16px;
+}
+
+div>h1{
+    margin-left: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+}
+div>h4{
+    color:rgb(116, 115, 115);
+    font-size:15px;
+    margin-left: 37%;;
+    cursor: pointer;
+}
+
+
+.register{
+    font-weight:300;
+    position:relative;
+    left:0;
+    bottom:0;
+    border:none;
+    background-color:gainsboro;
+    color:rgb(116, 115, 115);
+    padding:20px;
+    width:50%;
+    cursor: pointer;
+}
+.signin{
+    font-weight:300;
+    background-color: rgba(25, 21, 134, 0.879);
+    position:absolute;
+    color:rgb(116, 115, 115);
+    right:1px;;
+    bottom:2px;;
+    border:none;
+    padding:20px;
+    width:50%;
+    cursor: pointer;
+    
+}
