@@ -72,11 +72,18 @@ div>h4{
     background-color: rgba(25, 21, 134, 0.879);
     position:absolute;
     color:rgb(116, 115, 115);
-    right:1px;;
-    bottom:2px;;
+    right:1px;
+    bottom:1px;
     border:none;
     padding:20px;
     width:50%;
     cursor: pointer;
-    
+}
+.signin:hover{
+ color:white;
+ background-color: rgba(25, 20, 130, 0.879);
+}
+.register:hover{
+    color:white;
+    background-color:lightgrey;
 }
